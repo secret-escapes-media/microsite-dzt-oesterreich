@@ -1,0 +1,50 @@
+
+- id: "one"
+  title: Ein Naturerlebnis das alles&nbsp;bietet
+  colour: black
+  credit: "Whaleshark, Coral Coast, WA"
+  location: Ningaloo Reef, Westaustralien
+  description: "Das Ningaloo Reef ist das größte Saumriff der Welt und zählt zum UNESCO Weltnaturerbe. Nur wenige Meter vom Strand aus bietet sich Ihnen eine schillernde Unter&shy;wasserwelt, die zum Schnorcheln und Tauchen animiert. Mit etwas Glück schwimmen Sie etwas weiter draußen neben dem imposanten Walhai auf einer Tour in den Monaten Mai bis August: ein großartiges und unvergessenes Erlebnis. Begegnungen mit Buckelwalen, Delfinen oder wunderschönen Mantarochen gehören ebenfalls zu den Highlights am Ningaloo Reef. Wenn Sie ein ganz besonderes Andenken suchen, dann probieren Sie die komfortablen Glamping-Unterkünfte des Sal Salis im Cape Range Nationalpark: Sonnen&shy;untergänge mit maritimen Weitblick und funkelnder Sternen&shy;himmel über der Dünen&shy;landschaft bleiben auch in der Erinnerung&nbsp;lebendig. "
+
+
+################################################################################
+
+- id: "two"
+  title: Schillernde Unterwasserwelt
+  colour: white
+  credit: "Clownfish, Great Barrier Reef, QLD"
+  location: Great Barrier Reef, Queensland
+  description: "Wussten Sie, dass man das Great Barrier Reef vom Weltall aus sehen kann? Ganz so weit müssen Sie nicht reisen, denn Bootstouren mit Tauch- und Schnorchel-Exkursionen bringen Sie diesem Weltwunder ganz nahe. Wer nicht mit den schillernden Bewohnern des Riffes baden möchte, kann von einem Glasboden-Boot das faszinierende Unter&shy;wasserleben verfolgen. Mit der Cruise Whitsundays fahren Sie zur Plattform Reefworld und starten von hier aus Ihre Wasseraktivitäten ins Riff oder genießen Snacks und Getränke an Bord. Auf der Reefsleep Experience übernachten Sie in kuscheligen Swags und haben als Reefsleeper das Riff auch nachts für sich alleine. Die passende Gelegenheit für einen abenteuerlichen&nbsp;Tauchgang."
+
+
+################################################################################
+
+- id: "three"
+  title: Unentdeckte Naturwunder
+  colour: black
+  credit: "Cradle Mountain, TAS/ Sean Scott Photography"
+  location: Victoria, Tasmanien
+  description: "Abseits der Touristenpfade, gerade mal 3 Stunden von Melbourne entfernt, entdecken Sie verborgene Schätze wie den Grampians National Park. Der größte Nationalpark Victorias ist berühmt für seine Wanderwege, Wasserfälle sowie für Tier&shy;begegnungen mit Koalas, Kängurus und Emus. Die südlich von Victoria gelegene Insel Tasmanien zählt zur wichtigsten Wildnis-Region der Südhalbkugel und besitzt einen der zehn schönsten Sand&shy;strände der Welt, die wunderschön  geschwungene Wineglass Bay. Im Cradle Mountain-Lake-St.-Clair-Nationalpark über&shy;nachten Sie luxuriös mit Spa und Wellness umgeben von Tasmaniens wilder Natur. Über den D’Entrecasteaux-Kanal gelangen Sie zur süd-östlichsten Insel Tasmaniens: Bruny Island, benannt nach seinem Entdecker Joseph Bruny&nbsp;d’Entrecasteaux."
+
+
+################################################################################
+
+- id: "four"
+  title: Tropenzauber im Daintree&nbsp;Rainforest
+  colour: white
+  credit: "Mossman Gorge, QLD"
+  location: Daintree Rainforest, Queensland
+  description: "Entlang der Küste des Great Barrier Reefs liegt der Regenwald Daintree Rainforest, der zu den ältesten Regen&shy;wäldern der Erde zählt. Wandern Sie durch das UNESCO Weltnaturerbe auf einer von den lokalen Aborigines geführten Tour und erhalten Sie historische sowie kulturelle Einblicke des Kuku-Yalanji-Volkes, während Sie die einzig&shy;artige Tier- und Pflanzenwelt bestaunen. In Baumhäusern übernachten Sie in der Silky Oaks Lodge mit atemberaubender Aussicht auf den Mossmann River. Die Öko-Lodge bietet neben Helikopter-Touren über den Regenwald und das nahe gelegene Great Barrier Reef verwöhnende Wellness-Kuren im Spa mit fein abgestimmten Pflege&shy;produkten und einer Kombination aus lokalen&nbsp;Essenzen."
+
+
+################################################################################
+
+- id: "five"
+  title: Wildnis von Südaustralien
+  colour: black
+  credit: "Remarkable Rocks, Kangaroo Island, SA/ Will Cho"
+  location: Kangaroo Island, Südaustralien
+  description: "Die spektakulären Felsen der Remarkable Rocks, die wie futuristische Skulpturen einer Kunst&shy;ausstellung anmuten, sind Wahrzeichen des Flinders Chase National Parks. In den Naturparks der großen Südinsel begegnen Sie auf Wanderungen putzigen Wombats, wilden Kängurus und schläfrigen Koalas. Die heimlichen Stars der Insel sind jedoch die Seelöwen. An der südlichen Küste, der Seal Bay, können Sie die tollpatschigen Meeres&shy;bewohner am Strand beim Faulenzen beobachten. Ebenfalls Nahe am Wasser und direkt auf der Meeres&shy;klippe thronen die luxuriösen Southern Ocean Lodge und die Kangaroo Beach Lodge. Von hier aus starten Sie zu den vielseitigen Attraktionen der&nbsp;Insel. "
+
+
+################################################################################

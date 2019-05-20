@@ -1,0 +1,264 @@
+// general styles for the project that wouldn't be a reuseable component
+
+
+/* ==========================================================================
+   Text-Styles
+   ========================================================================== */
+
+.bv-copyright{
+   position:absolute;
+   bottom:0px;
+   background-color: rgba($black, .2);
+   padding: 5px 10px;
+
+ }
+
+
+.bv-text-shadow-white{
+  text-shadow: 0 0 20px rgba($white, 1);
+}
+
+.bv-hpad {
+  padding-left: $s2;
+  padding-right: $s2;
+
+@include bp($md) {
+  padding-left: $s4;
+  padding-right: $s4;
+}
+
+@include bp($lg) {
+  padding-left: $s3;
+  padding-right: $s3;
+}
+
+@include bp($xl) {
+padding-left: $s4;
+padding-right: $s4;
+}
+
+@include bp($xxl) {
+  padding-left: $s5;
+  padding-right: $s5;
+}
+
+@include bp($xxxl) {
+  padding-left: $s7;
+  padding-right: $s7;
+}
+}
+
+
+/* ==========================================================================
+   mobile
+ ========================================================================== */
+
+
+.bv-mob-show{
+    display: block;
+
+  @include bp($xl) {
+      display: none;
+
+  }
+}
+
+.bv-mob-hide{
+    display: none;
+
+    &--lg { display: none;}
+
+    &--md { display: none;}
+
+  @include bp($md) {  &--md {display: block;}  }
+
+  @include bp($lg) {  &--lg {display: block;}  }
+
+  @include bp($xl) {  display: block;  }
+
+}
+
+
+/* ==========================================================================
+   Pin
+   ========================================================================== */
+
+.bv-ul--white{
+  list-style-image: url('../img/icons/map-pin-white.svg');
+}
+
+.bv-ul--black{
+  list-style-image: url('../img/icons/map-pin-black.svg');
+}
+
+.bv-pin li {
+    content: "";
+    display:inline-block;
+    height:1em;
+    width:1em;
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-left: 2em;
+ }
+
+
+.bv-show{
+  display: block;
+}
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+/*
+  &--blue{
+    background-image: none!important;
+    background-color: $bv-blue;}*/
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+
+  }
+}
+
+
+
+      /* ==========================================================================
+       hero-youtube
+      ========================================================================== */
+
+      /* The Modal (background) */
+      .bv-modal {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba($black,0.9);
+      }
+
+      /* Modal Content */
+      .bv-modal-content-details {
+        position: absolute;
+        height: 100%;
+        max-height: 620px;
+        width: 100%;
+        margin: auto;
+        padding:  55px;
+        top: 0; left: 0; bottom: 0; right: 0;
+        overflow: hidden;
+
+      }
+
+
+      .bv-mySlides {
+        margin: auto;
+        max-width:1000px;
+        width:100%;
+        background-color: #fff;
+
+      }
+
+
+      .bv-iframe-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%; // 16:9 ratio
+        background-color:#000;
+
+      }
+
+      .bv-iframe-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0; top: 0;
+      }
+
+      /* The Close Button */
+      .bv-close {
+        position: absolute;
+        background-size:16px;
+        top: 0px;
+        right: 0px;
+        background-image: url('../img/icons/close-black.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 55px;
+        height: 55px;
+        background-color: $white;
+        z-index:999;
+        cursor: pointer;
+
+      }
+
+
+      @media only screen and (max-width: 650px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 38vh;
+        height: 100%;
+        }
+      }
+
+
+      @media only screen and (min-width: 650px) and (max-width: 800px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 450px;
+        height: 100%;
+        }
+      }
+
+      .bv-disable-scroll {
+        overflow: hidden;
+        & >:not(.bv-modal) {
+        //  -webkit-filter: blur(10px);
+        //  -moz-filter: blur(10px);
+        //  -o-filter: blur(10px);
+        //  -ms-filter: blur(10px);
+        //  filter: blur(10px);
+        }
+      }
+
+
+
+
+  /* ==========================================================================
+    Flight tag - Offers
+    ========================================================================== */
+
+
+
+    .flight-tag {
+      position: absolute;
+      top: $s-2;
+      left: $s-2;
+      display: block;
+      width: 50%;
+      @include bp($sm){
+        top: $s0;
+        left: $s0;
+        width: 146px;
+      }
+    }

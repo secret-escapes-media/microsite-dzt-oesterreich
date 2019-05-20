@@ -1,0 +1,52 @@
+
+- id: "one"
+  title: Kunst der Aborigines
+  colour: black
+  credit: "Maruku Arts, Uluru Kata Tjuta National Park, NT"
+  location: Uluru, Northern Territory
+  description: "Zu den ältesten Kunst&shy;traditionen der Welt zählt die Felsen- und Höhlen&shy;malerei der Aborigines. Die schätzungsweise fast 40.000 Jahre alten symbolischen Kunstwerke schmücken über 100.000 Höhlen- und Felswände auf dem 5. Kontinent. Die grafischen Motive im Dot-Painting-Stil sind nicht nur reine Kunst, sondern werden wie eine Zeichen&shy;schrift verwendet. Symmetrische Formen und Figuren weisen ähnlich wie ein Zeichen etwa auf essbare Pflanzen und sauberes Wasser hin oder warnen vor Gefahr. Die unter&shy;schiedlichen Kunststile konnten den Sprachen der Stämme nach Region zugewiesen&nbsp;werden. "
+
+
+################################################################################
+
+- id: "two"
+  title: Authentische Erlebnisse
+  colour: white
+  credit: "Daintree Dreaming Tour, QLD"
+  location: Northern Territory, Westaustralien, Queensland, New South Wales, Victoria
+  description: "Tauchen Sie ein in die faszinierende Kultur der Aborigines. In Begleitung eines Guides entdecken Sie die Traditionen der australischen First Nations, die zu den ältesten der Welt gehört. Deuten Sie Tierspuren im Sand, fangen Fische mit dem Speer oder sammeln Mangrovenkrabben ein. Oftmals führt Sie der Stammes&shy;älteste zu den bedeutungs&shy;vollen Orten und lädt zur Welcome-to-Country-Zeremonie ein. In ganz Australien können Sie authentische Touren mit den Ureinwohnern des Kontinents erleben. In Führungen durch die National&shy;parks vermitteln Stammes&shy;mitglieder ihr Wissen und ihre Werte über das Zusammenspiel mit der&nbsp;Natur. "
+
+
+################################################################################
+
+- id: "three"
+  title: Facettenreiches Licht-Spektakel
+  colour: black
+  credit: "Vivid Festival Sydney, NSW"
+  location: Sydney, New South Wales
+  description: "Jährlich zwischen Mai und Juni verwandelt das Vivid Sydney Festival berühmte Bauwerke und Skulpturen in eine märchenhafte Kulisse. Kunterbunt erstrahlen die Wahrzeichen der Metropole, wie das berühmte Opera House of Sydney, die Harbour Bridge oder das Museum of Contemporary Art. Musikalisch untermalt wird das visuelle Kunst&shy;erlebnis mit Auftritten lokaler und internationaler Stars aus der Musik-Szene. Öffentliche Gesprächsrunden, Kunst&shy;konferenzen, Ausstellungen und Workshops laden zum Austausch zwischen Kunst&shy;schaffenden, Politikern und globalen Denkern&nbsp;ein."
+
+
+################################################################################
+
+
+- id: "four"
+  title: Geheimnisvolle Orte
+  colour: white
+  credit: "MONA Museum of Old and New&nbsp;Art"
+  location: Hobart, Tasmanien
+  description: "Das tief ins Erdreich gebaute Museum of Old and New Art ist Australiens größtes Museum in Privat&shy;besitz. Mit seinen eindrucks&shy;vollen Samm&shy;lungen hat sich das in einer Sandstein&shy;klippe eingebaute Kunstmuseum MONA einen Namen gemacht. Nicht nur die Lage, das Bauwerk, sondern auch die Gestaltung der gastro&shy;nomischen Einrichtungen wie das Café, Restaurant und der Weinkeller im Arsenal sind wahre Schmuck&shy;stücke. Unterirdisch gelegen sind auch die spanennden Ghost-Touren im ehemaligen Gefängnis Porth Arthur auf Tasmanien. Im Schein des Laternen&shy;lichtes lauschen Sie Erzählungen über unerklärliche Ereignisse und paranomorale&nbsp;Aktivitäten."
+
+
+################################################################################
+
+
+- id: "five"
+  title: Kunstszene in Melbourne
+  location: Melbourne, Victoria
+  colour: black
+  credit: "Duckboard Place, Melbourne Laneways, VIC"
+  description: "Folgen Sie einfach dem wunderbaren Duft des Kaffees, für den Melbourne so bekannt ist: Am südlichen Ufer des Yarra liegt der Kunstbezirk zwischen trendigen Coffeeshops und Boutiquen. Schon auf dem Weg genießen Sie Kunst im Großformat: Street Art-Künstler wie Banksy bemalten hier die Fassaden der schmalen Laneways. Unweit liegt die älteste und namensgleiche National Gallery of Victoria, deren Ausstellung Exponate indigener Kunst und internationaler Künstler zeigt. Provokante moderne Werke entdecken Sie im Heide Museum of Modern Art in Bulleen. Nicht nur Jazz, auch Interpreten aus der R&B, Pop und Rock Szene sind geschätzte Gäste des Birds Basement Club. Stars aus Theater, Musical und Comedy erleben Sie abends live im Arts Centre Melbourne. "
+
+
+################################################################################

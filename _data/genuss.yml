@@ -1,0 +1,52 @@
+
+- id: "one"
+  title: Magische Stunden am&nbsp;Uluru
+  colour: black
+  credit: "Uluru Field of Light, NT" # © Tourism Australia
+  location: Uluru, Northern Territory
+  description: "Ein faszinierendes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback-Himmel, inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Ebene senkt, erkunden Sie den Sternen&shy;himmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Licht&shy;installationen des gefeierten Künstlers Bruce Munro, die noch bis 2020 leuchten&nbsp;werden."
+
+
+################################################################################
+
+- id: "two"
+  title: Delikatessen aus dem Outback
+  colour: white
+  credit: Margaret River Gourmet Escape, WA # © Tourism Australia
+  location: Westaustralien, Tasmanien, Südaustralien
+  description: "Schauen Sie auf den zahlreichen Festivals — wie dem Margaret River Gourmet Escape in Westaustralien oder dem Taste of Tasmania — den Spitzenköchen über die Schulter. Verwöhnen Sie Ihren Gaumen mit feinsten Zutaten aus der Region wie exklusivem Wein aus Südaustralien, Whisky oder dem berühmten Leatherwood Honig aus Tasmanien. Um die ursprüngliche Küche der First Nations Australiens zu probieren, müssen Sie nicht die Wanderschuhe anziehen. Im 5*-Restaurant Orana in Adelaide präsentiert Starkoch Jock Zonfrillo die Zutaten der indigenenen Koch&shy;tradtion im gehobenem Ambiente: Meeres&shy;petersilie (Sea Parsley), Coorong Mulloway oder Strand&shy;sukkulenten sind nur einige Speisen aus der Aboriginal Kitchen, die Sie dort probieren&nbsp;können. "
+
+
+################################################################################
+
+- id: "three"
+  title: Sterneküche für&nbsp;Geniesser
+  colour: black
+  credit: "D’Arenberg Cube, McLaren Vale"
+  location: Südaustralien, New South Wales, Victoria
+  description: "In den größeren Städten Australiens, aber auch entlang der umliegenden Regionen und Wein&shy;anbaugebiete finden Sie sowohl preisgekrönte Restaurants als auch Feinschmecker Events, die einmalige Geschmacks&shy;erlebnisse versprechen. Im McLaren Vale wartet The Cube — ein Komplex auf dem Weingut D’Arenberg mit Museum, Video&shy;installation, Weinverkostung sowie Restaurant auf Ihren Besuch. Auf gutes Essen müssen Sie auch in den Metropolen nicht verzichten: Das Quay und Firedoor zählen in Sydney zu den Top Adressen ebenso das berühmte Attica in&nbsp;Melbourne. "
+
+
+################################################################################
+
+
+- id: "four"
+  title: Skyline-Fieber für&nbsp;Nachtschwärmer
+  colour: white
+  credit: "Opera Bar, Sydney, NSW "
+  location: Sydney, New South Wales
+  description: "Im Herzen von Sydney bieten Rooftop-Bars eine perfekte Möglichkeit, lauschige Sommer&shy;nächte mit Blick auf die Wahrzeichen der Stadt zu verbringen. Vor spektakulärer Kulisse präsentiert das Open-Air-Kino der Bondi Beach Bar ein ausgewähltes Filmprogramm zur blauen Stunde. Aus der Vogelperspektive genießen Sie die besten Aussichten auf das 10 minütige Feuerwerksspektakel an der Harbour Bridge, das jeden Samstag Abend zelebriert wird. Doch Kunst, Kultur und Outdoor-Veranstaltungen finden nicht nur auf den Dächern der pulsierenden Metropole statt: Unvergessen bleibt ein Opernabend im berühmten Sydney Opera House, das mit Stars aus der Klassik-Welt großartige Inszenierungen&nbsp;darbietet. "
+
+
+################################################################################
+
+
+- id: "five"
+  title: Australiens edle&nbsp;Tropfen
+  location: Südaustralien, New South Wales, Westaustralien
+  colour: black
+  credit: "Jacobs Creek, Barossa Valley, SA"
+  description: "Wussten Sie, dass Australien einen aus&shy;gezeichneten Ruf als preis&shy;gekrönte Wein&shy;destination besitzt? Auf Genuss-Touren lernen Sie mehr über die Spitzenweine der 60 Anbaugebiete kennen. Zu den besten und ältesten Weinregionen Südaustraliens zählt das Barossa Valley. Seit 160 Jahren produzieren die Winzer Spitzenweine, die ihresgleichen suchen. Nahe der Metropole Sydney lädt das Hunter Valley zu Festivals mit Wein und Käse. Entlang des Wine-Trails, im beschaulichen Swan Valley in Westaustralien, flanieren Sie zwischen Weingut-Cafés, Brauereien und Brennereien. Preisgekrönt ist auch der Sauvignon Blanc aus der westaustralischen Weinregion Margaret River. Bei einer Stippvisite probieren Sie hier die Premium-Weine gleich vom&nbsp;Fass."
+
+
+################################################################################

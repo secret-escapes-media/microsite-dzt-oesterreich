@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+
+<div class=" vpad--xxl " >
+  <div class="container">
+    <div class="width width--xl text--center text--normal text--xl " >
+       <div class="text--italic text--justify">{{page.intro}}</div>
+         <div class="vpad--sm"></div>
+            <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--bv-outline" > Film ansehen</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row row--xl-6-6 row--no-gutters bg--light ">
+    <div class="col col--xl-4" >
+      <div class="vpad--md">
+        <div class="width width--lg bv-hpad">
+          <div class="space--lg"></div>
+          <h1 class="title title--xl text--upper text--gold">Entdecken Sie Australien</h1>
+          <div class="space--lg"></div>
+          <h3 class="text text--xl text--bold">Nur einen Klick entfernt:<br> Exklusive Traumziele im Abenteuerland</h3>
+          <div class="space--lg"></div>
+          <h2 class="text text--lg text--normal ">Welcher Reisetyp sind Sie? Wir zeigen Ihnen ausgewählte Premium-Ziele auf unserer interaktiven Australien-Karte. Möchten Sie mehr erfahren? Dann klicken Sie sich zu Ihrer Lieblingskategorie und entdecken Sie mit uns den fünften Kontinent.</h2>
+          <div class="space--lg"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col col--xl-8">
+         <div class="bv-highlights-section">
+           <div class="bv-legend-wrap ">
+            <a class="bv-toggle bv-toggle--border bv-toggle-active" id="bv-pin1"><div class=" bv-genuss text text--sm">Genuss</div></a>
+            <div class="bv-border"></div>
+            <a class="bv-toggle bv-toggle-active" id="bv-pin2"><div class=" bv-natur text text--sm">Natur</div></a>
+            <div class="bv-border"></div>
+            <a class="bv-toggle bv-toggle-active" id="bv-pin3"><div class="bv-icon bv-abenteuer text text--sm">Abenteuer</div></a>
+            <div class="bv-border"></div>
+            <a class="bv-toggle bv-toggle-active" id="bv-pin4"><div class="bv-icon bv-kultur text text--sm">Kultur</div></a>
+          </div>
+             <div class="map" id="map">
+
+           </div>
+        </div>
+  </div>
+</div>
+
+
+{% include page/map/map.html %}

@@ -1,0 +1,43 @@
+- title: Rundreise zu den Highlights von Down Under
+  id: "1"
+  location: Melbourne, Sydney, Ayers Rock, Cairns – Australien
+  description: Von Sydney zum Ayers Rock & ans Korallenriff – inkl. Touren & optionalem Stopp in Melbourne
+  price: 4849
+  price-description: basierend auf 2 Personen für 9 Nächte
+  saved:
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
+  link: http://bit.ly/2w7AvTR
+
+- title: Charmantes Design-Hotel in Sydney
+  id: "2"
+  location: The Grace Hotel, Sydney, Australien
+  description: Eco-Exzellenz Down Under in Traumlage am Hafen – inkl. Frühstück & spätem Check-out
+  price: 62
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 34
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94393/fbbdbb9d_7191_4770_add1_c034de7477e5.jpg
+  link: http://bit.ly/2M9XUPF
+
+- title: "Einmal im Leben: Luxus-Rundreise in Australien"
+  id: "3"
+  location: Sydney, Ayers Rock, Daintree-Regenwald, Hamilton Island, Melbourne
+  description:  Inkl. Business-Class-Flügen auf der Langstrecke, Privattransfers & vielen Touren
+  price: 16.999
+  price-description: pro Person - basierend auf 2 Personen für 16 Nächte
+  saved:
+  flight-tag: true
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/30191/62d059c2_51f0_4b87_8b46_a7f1b47ea340.jpg
+  link: http://bit.ly/2VwsTVi
+
+- title: "Australien: Badeurlaub mit Skyline-Panorama"
+  id: "4"
+  location: The Ruby Collection, Surfer’s Paradise, Gold Coast, Queensland, Australien
+  description: Australiens schönster Strand – inkl. Frühstück & täglichem Cocktail
+  price: 50
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 27
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94622/e9279241_85eb_4115_9985_f7d713a88842.jpg
+  link: http://bit.ly/2JQcM2z
