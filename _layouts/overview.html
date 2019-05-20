@@ -5,49 +5,70 @@ layout: default
 
 <div class=" vpad--xxl " >
   <div class="container">
-    <div class="width width--xl text--center text--normal text--xl " >
-       <div class="text--italic text--justify">{{page.intro}}</div>
-         <div class="vpad--sm"></div>
-            <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--bv-outline" > Film ansehen</div>
-
+    <div class="width width--lg text text--center text--normal text--xxl " >
+       <div class="text--justify">{{page.intro}}</div>
     </div>
   </div>
 </div>
 
 
 
-<div class="row row--xl-6-6 row--no-gutters bg--light ">
-    <div class="col col--xl-4" >
-      <div class="vpad--md">
-        <div class="width width--lg bv-hpad">
-          <div class="space--lg"></div>
-          <h1 class="title title--xl text--upper text--gold">Entdecken Sie Australien</h1>
-          <div class="space--lg"></div>
-          <h3 class="text text--xl text--bold">Nur einen Klick entfernt:<br> Exklusive Traumziele im Abenteuerland</h3>
-          <div class="space--lg"></div>
-          <h2 class="text text--lg text--normal ">Welcher Reisetyp sind Sie? Wir zeigen Ihnen ausgewählte Premium-Ziele auf unserer interaktiven Australien-Karte. Möchten Sie mehr erfahren? Dann klicken Sie sich zu Ihrer Lieblingskategorie und entdecken Sie mit uns den fünften Kontinent.</h2>
-          <div class="space--lg"></div>
-        </div>
-      </div>
+<div class=" vpad--xl  bg--lightgrey" >
+  <div class="container">
+      <h2 class="title title--xl text--bold">{{ page.pois.title}}</h2>
+      <div class="space--xl"></div>
 
-    </div>
-    <div class="col col--xl-8">
-         <div class="bv-highlights-section">
-           <div class="bv-legend-wrap ">
-            <a class="bv-toggle bv-toggle--border bv-toggle-active" id="bv-pin1"><div class=" bv-genuss text text--sm">Genuss</div></a>
-            <div class="bv-border"></div>
-            <a class="bv-toggle bv-toggle-active" id="bv-pin2"><div class=" bv-natur text text--sm">Natur</div></a>
-            <div class="bv-border"></div>
-            <a class="bv-toggle bv-toggle-active" id="bv-pin3"><div class="bv-icon bv-abenteuer text text--sm">Abenteuer</div></a>
-            <div class="bv-border"></div>
-            <a class="bv-toggle bv-toggle-active" id="bv-pin4"><div class="bv-icon bv-kultur text text--sm">Kultur</div></a>
+      <div class="row row--6-6 row--gutters">
+        <div class="col">
+          <div class="" >
+              <div class="text text--xxl text--justify">{{page.dzt-box}}</div>
           </div>
-             <div class="map" id="map">
-
-           </div>
         </div>
+        <div class="col">
+          <div class="bg-img bg-img--4-3 bg-img--lg-1-1  bg-img--xl-4-3 bg-img--xxl-16-9" style="background-image: url('{{site.img}}/img.jpg');">
+            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"><span class="bg-img__play bg-img--zoom"></span></a>
+            <div class="bg-img__bg-overlay"></div>
+          </div>
+        </div>
+    </div>
+  <div class="space--xl"></div>
+
+
+    <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
+
+        {% for poi in page.pois.items %}
+        <div class="col">
+          <div class="bg-img bg-img--4-3 bg-img--md-1-1 bg-img--xxl-1-1" style="background-image: url('{{site.img}}/img.jpg');">
+            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="title title--sm text--upper text--bold">{{poi.title}}</div>
+            </div>
+            <div class="bg-img__bg-overlay"></div>
+          </div>
+        </div>
+
+          {% endfor %}
+
+    </div>
   </div>
 </div>
 
+<div class="container vpad--xl">
+    <h2 class="title title--xl text--bold">Unsere Partner</h2>
+    <div class="space--xl"></div>
+  <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
+    {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
+      {% for partner in page.partner.items %}
+    <div class="col text--justify">
+      <div class="bg-img bg--white bg-img--16-9" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{partner.id}}.jpg);">      </div>
+      <div class="space--md"></div>
+      <h5 class="text text--xl text--left text--upper text--bold">{{partner.title}}</h5>
+      <p>{{partner.description}}</p>
+      <div class="space--xl"></div>
+    </div>
 
-{% include page/map/map.html %}
+
+    {% endfor %}
+
+  </div>
+</div>

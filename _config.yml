@@ -1,19 +1,19 @@
 # Site settings
-title: Australien
+title: Deutschland
 client:
-  name: Sehnsuchtsort der Südhalbkugel
-  link: "http://bit.ly/2UKImRe"
+  name: Lorem Ipsum
+  link: ""
 core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019
 se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019"
 description: >
-  Ein Paradies für Gourmets, ein Land das höchste Kunst- und Kulturerlebnisse verspricht und den feinsten Sandstrand der Welt besitzt.
+  Lorem Ipsum
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/australien-2019" # the subpath of your site, e.g. /blog/
-img:     "/de/australien-2019/_assets/img"
-css:     "/de/australien-2019/_assets/css"
-js:      "/de/australien-2019/_assets/js"
+baseurl: "/at/deutschland-2019" # the subpath of your site, e.g. /blog/
+img:     "/at/deutschland-2019/_assets/img"
+css:     "/at/deutschland-2019/_assets/css"
+js:      "/at/deutschland-2019/_assets/js"
 
 
 # Build settings
