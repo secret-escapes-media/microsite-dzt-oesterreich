@@ -7,6 +7,7 @@ layout: default
   <div class="container">
     <div class="width width--lg text text--center text--normal text--xxl " >
        <div class="text--justify">{{page.intro}}</div>
+
     </div>
   </div>
 </div>
@@ -15,8 +16,8 @@ layout: default
 
 <div class=" vpad--xl  bg--lightgrey" >
   <div class="container">
-      <h2 class="title title--xl text--bold">{{ page.pois.title}}</h2>
-      <div class="space--xl"></div>
+      <h2 class="title title--xl text--bold">{{page.pois.title}}</h2>
+      <div class="space--xxl"></div>
 
       <div class="row row--6-6 row--gutters">
         <div class="col">
@@ -25,8 +26,8 @@ layout: default
           </div>
         </div>
         <div class="col">
-          <div class="bg-img bg-img--4-3 bg-img--lg-1-1  bg-img--xl-4-3 bg-img--xxl-16-9" style="background-image: url('{{site.img}}/img.jpg');">
-            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"><span class="bg-img__play bg-img--zoom"></span></a>
+          <div class="bg-img bg-img--4-3 bg-img--lg-1-1  bg-img--xl-4-3 bg-img--xxl-16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/video.jpg');">
+          <a id="bv-myBtn" data-modal-item="{{page.id}}" style="cursor: pointer;" class="bg-img__link"><span class="bg-img__play bg-img--zoom"></span></a>
             <div class="bg-img__bg-overlay"></div>
           </div>
         </div>
@@ -37,13 +38,16 @@ layout: default
     <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
 
         {% for poi in page.pois.items %}
-        <div class="col">
-          <div class="bg-img bg-img--4-3 bg-img--md-1-1 bg-img--xxl-1-1" style="background-image: url('{{site.img}}/img.jpg');">
-            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+        <div class="col" id="bv-overlay-{{poi.id}}">
+          <div class="bg-img bg-img--4-3 bg-img--md-1-1 bg-img--xxl-1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{poi.id}}.jpg');">
+            <a href="{{poi.url}}" class="bg-img__link" target="_blank"></a>
             <div class="bg-img__content">
               <div class="title title--sm text--upper text--bold">{{poi.title}}</div>
             </div>
-            <div class="bg-img__bg-overlay"></div>
+            <div class="bg-img__bg-overlay ">
+              <div class="text text--sm text--white text--normal bv-copyright--left-bottom" >{{poi.copyright}}</div>
+              <div id="bv-caption-{{poi.id}}" class="text text--sm text--white text--normal bv-caption" >{{poi.caption}}</div>
+            </div>
           </div>
         </div>
 
@@ -55,16 +59,18 @@ layout: default
 
 <div class="container vpad--xl">
     <h2 class="title title--xl text--bold">Unsere Partner</h2>
-    <div class="space--xl"></div>
+    <div class="space--xxl"></div>
   <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
     {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
       {% for partner in page.partner.items %}
-    <div class="col text--justify">
-      <div class="bg-img bg--white bg-img--16-9" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{partner.id}}.jpg);">      </div>
+    <div class="col text text--md text--justify">
+      <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{partner.id}}/hero.jpg);">      </div>
       <div class="space--md"></div>
-      <h5 class="text text--xl text--left text--upper text--bold">{{partner.title}}</h5>
+      <h5 class="title title--xs text--left text--upper text--bold">{{partner.title}}</h5>
       <p>{{partner.description}}</p>
-      <div class="space--xl"></div>
+      <div class="space--md"></div>
+        <a href="{{site.baseurl}}/{{partner.id}}" class=" btn btn--bv-outline" > Mehr erfahren</a>
+      <div class="space--md"></div>
     </div>
 
 
@@ -72,3 +78,17 @@ layout: default
 
   </div>
 </div>
+
+<script>
+
+  var bvOverlay = document.getElementById("bv-overlay-three");
+  var bvCaption = document.getElementById("bv-caption-three");
+
+  bvOverlay.onmouseover = function() {
+  	bvCaption.style.display = "block";
+  }
+  bvOverlay.onmouseout = function() {
+  	bvCaption.style.display = "none";
+  }
+
+</script>

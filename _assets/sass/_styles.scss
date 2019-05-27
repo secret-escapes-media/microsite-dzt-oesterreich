@@ -6,12 +6,44 @@
    ========================================================================== */
 
 .bv-copyright{
-   position:absolute;
-   bottom:0px;
-   background-color: rgba($black, .2);
-   padding: 5px 10px;
+
+   &--bottom{
+    position:absolute;
+     bottom:0px;
+     //background-color: rgba($black, .2);
+     padding: 5px 10px;
+     right:0px;
+   }
+
+  &--left-bottom{
+    position:absolute;
+    bottom:0px;
+    line-height: 1.1em;
+    //background-color: rgba($black, .2);
+    padding: 8px 8px;
+    left:0px;
+  }
+
+  &--top{
+     position:absolute;
+     top: 0px;
+     //background-color: rgba($black, .2);
+     padding: 5px 10px;
+     right:0px;
+   }
+
 
  }
+
+.bv-caption{
+  position:absolute;
+  bottom: 20px;
+  line-height: 1.15em;
+  display: none;
+  @include transition;
+  padding: 8px 8px;
+  left:0px;
+}
 
 
 .bv-text-shadow-white{
@@ -78,28 +110,6 @@ padding-right: $s4;
 
 }
 
-
-/* ==========================================================================
-   Pin
-   ========================================================================== */
-
-.bv-ul--white{
-  list-style-image: url('../img/icons/map-pin-white.svg');
-}
-
-.bv-ul--black{
-  list-style-image: url('../img/icons/map-pin-black.svg');
-}
-
-.bv-pin li {
-    content: "";
-    display:inline-block;
-    height:1em;
-    width:1em;
-    background-size:contain;
-    background-repeat:no-repeat;
-    padding-left: 2em;
- }
 
 
 .bv-show{
@@ -230,17 +240,19 @@ padding-right: $s4;
         }
       }
 
-      .bv-disable-scroll {
-        overflow: hidden;
-        & >:not(.bv-modal) {
-        //  -webkit-filter: blur(10px);
-        //  -moz-filter: blur(10px);
-        //  -o-filter: blur(10px);
-        //  -ms-filter: blur(10px);
-        //  filter: blur(10px);
-        }
-      }
-
+.bv-disable-scroll {
+  overflow: hidden;
+  & >:not(.bv-modal) {
+  //  -webkit-filter: blur(10px);
+  //  -moz-filter: blur(10px);
+  //  -o-filter: blur(10px);
+  //  -ms-filter: blur(10px);
+  //  filter: blur(10px);
+  }
+}
+.bv-banner-out{
+  //opacity: .5;
+}
 
 
 

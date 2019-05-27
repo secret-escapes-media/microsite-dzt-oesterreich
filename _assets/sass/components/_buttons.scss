@@ -6,8 +6,8 @@
   font-weight: 700;
   font-size: $s-1;
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: .25em;
+  //text-transform: uppercase;
+  //letter-spacing: .25em;
   line-height: 1.33;
   border-radius: 0;
   cursor: pointer;
@@ -35,14 +35,30 @@
   }
   &--bv-outline {
 
-    font-size: $s0/1.2;
-    color: $bv-gold;
-    border: 2px solid $bv-gold;
-    border-radius: 0px;
+    font-size: $s1;
+    color: $grey-dark;
+    line-height: 1;
+    border: 1px solid $grey-dark;
+    border-radius: 3px;
 
     &:hover {
       color: $white;
-      background-color: $bv-gold;
+      background-color: $grey-dark;
+      border: 1px solid $grey-dark;
+    }
+  }
+  &--bv-blue {
+
+    font-size: $s1;
+    line-height: 1;
+    color: $white;
+    background-color: $bv-blue;
+    border-radius: 3px;
+
+    &:hover {
+      color: $white;
+      background-color: rgba($bv-blue, .8);
+      //border: 1px solid $bv-blue;
     }
   }
   &--outline-orange {

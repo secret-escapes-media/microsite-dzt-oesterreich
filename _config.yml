@@ -1,19 +1,19 @@
 # Site settings
 title: Deutschland
 client:
-  name: Lorem Ipsum
+  name: Von der Nordsee bis zu den Alpen
   link: ""
 core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019
 se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019"
 description: >
-  Lorem Ipsum
+  Das Reiseland Deutschland hat viel mehr zu bieten als Fußball, Currywurst oder das Oktoberfest. Entdecken Sie unser Land ganz neu, abseits der Klischees und in all seiner Vielfalt.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/at/deutschland-2019" # the subpath of your site, e.g. /blog/
-img:     "/at/deutschland-2019/_assets/img"
-css:     "/at/deutschland-2019/_assets/css"
-js:      "/at/deutschland-2019/_assets/js"
+baseurl: "/at/deutschland" # the subpath of your site, e.g. /blog/
+img:     "/at/deutschland/_assets/img"
+css:     "/at/deutschland/_assets/css"
+js:      "/at/deutschland/_assets/js"
 
 
 # Build settings

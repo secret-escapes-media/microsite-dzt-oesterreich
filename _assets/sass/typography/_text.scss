@@ -6,6 +6,7 @@
   &--xxl { font-size: 1.5rem; line-height: 1.4; letter-spacing: 0; }
   &--xl  { font-size: 1.4rem; line-height: 1.4; letter-spacing: 0; }
   &--lg  { font-size: 1.3rem; letter-spacing: 0; }
+  &--md  { font-size: 1.2rem; letter-spacing: 0; }
   &--sm  { font-size: 1rem; }
 
   // styles
@@ -21,10 +22,9 @@
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $grey-dark; }
-  &--gold { color: $bv-gold; }
   &--red { color: $bv-red; }
   &--blue { color: $bv-blue; }
-  &--yellow { color: $bv-yellow; }
+
 
   // alignment
   &--left   { text-align: left; }

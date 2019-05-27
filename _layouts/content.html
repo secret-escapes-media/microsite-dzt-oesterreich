@@ -1,10 +1,22 @@
 ---
 layout: default
 ---
-<div class=" vpad--xxl bg--blue" >
+<div class=" vpad--xxl " >
   <div class="container">
-    <div class="width width--xl text--left text--normal text--xl " >
-       <div class="text--white text--italic text--justify">{{page.intro}}</div>
+    <div class="width width--xl text text--center text--normal text--xxl " >
+       <div class="text text--justify">{{page.intro}}</div>
+       <div class="space--xl"></div>
+
+       {% if page.partnerlink  %}
+
+         <a href="{{page.partnerlink}}" class=" btn btn--bv-blue" target="_blank"> Mehr erfahren</a>
+
+       {% else if page.youtube-url  %}
+
+          <a id="bv-myBtn" data-modal-item="{{page.id}}" style="cursor: pointer;" class="btn btn--bv-blue">Film ansehen</a>
+
+        {% endif %}
+
     </div>
   </div>
 </div>
@@ -12,20 +24,18 @@ layout: default
 
 
 
-{% for section in site.data[page.id] %}
-    <div id="{{section.id}}" class="harvey {% cycle 'harvey--swap ', ' bg--gold-bg text--white' %}">
-      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"><div class="text text--sm text--white text--normal bv-copyright" style=" {% cycle 'left:0px;', 'right:0px;' %}">{{section.credit}}</div></div>
-      <div class="harvey__text boxpad--lg text text--xl text--justify">
-      <div class="space--xs"></div>
-        <h2 class="title title--xl {% cycle 'text--gold ', ' text--white ' %} text--upper text--left text--normal">{{section.title}}</h2>
-
-        {% if section.location %}
-        <ul>
-        <li class="text text--xl bv-pin bv-ul--{{section.colour}} text--bold text--left"> {{section.location}}</li>
-        </ul>
-        {% endif %}
-
+{% for section in  page.sections.items %}
+    <div id="{{section.id}}" class="harvey {% cycle 'harvey--swap bg--lightgrey', '' %}">
+      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
+        <div class="text text--sm text--white text--normal bv-copyright--bottom" style=" {% cycle 'left:0px;', 'right:0px;' %}">{{section.credit}}</div>
+      </div>
+      <div class="harvey__text boxpad--lg text text--xxl text--justify">
+        <h2 class="title title--xl text--bold text--left ">{{section.title}}</h2>
+        <div class="space--md"></div>
         <p>{{section.description}}</p>
+
+        <div class="space--xl"></div>
+          <a href="{{section.url}}" class=" btn btn--bv-outline" > Mehr erfahren</a>
       </div>
     </div>
  {% endfor %}

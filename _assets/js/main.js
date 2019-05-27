@@ -10,8 +10,8 @@ $(window).on('scroll', function () {
     pixs = pixs / 100,
     offset = 600,
     range = 100,
-    calc = 1 - (pixs )/10;
-
+    calc = 0.6 - (pixs )/17;
+//console.log(calc);
 	if(isFirefox === false){
 
 		$(".bv-banner-out").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)","opacity": calc });
@@ -20,12 +20,15 @@ $(window).on('scroll', function () {
 });
 
 
+
+
 // Get the modal
 var modal = document.getElementById('bv-myModal');
 
 // Get the button that opens the modal
 var btn = document.getElementById("bv-myBtn");
 
+//console.log(btn);
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("bv-close")[0];
 
@@ -33,6 +36,7 @@ var span = document.getElementsByClassName("bv-close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
     $('body').addClass('bv-disable-scroll');
+		//console.log(child.id);
 		$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
 }
 
@@ -40,6 +44,7 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
       $('body').removeClass('bv-disable-scroll');
+
 			//$('#video').stopVideo();
 			$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 }

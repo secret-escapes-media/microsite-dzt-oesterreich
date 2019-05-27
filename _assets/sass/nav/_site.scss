@@ -76,7 +76,7 @@ $nav-color:          $black;
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
+    //border-right: 1px solid rgba($white,.15);
     &:last-child { border-right: 0; }
   }
   &__link {
@@ -84,20 +84,18 @@ $nav-color:          $black;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    padding-left: $s4;
-    padding-right: $s4;
+    padding-left: $s3;
+    padding-right: $s3;
     font-family: $font-core;
     font-weight: 700;
     font-size: 11px;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    //padding-top: -4px;
-
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,0);  }
-    .no-touch &:hover { background-color: rgba($bv-red,1);  }
+    &.is-current      { color: $black; background-color: rgba($white,1);  }
+    .no-touch &:hover {  color: $white; background-color: rgba($bv-red,1);  }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;
