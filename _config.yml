@@ -1,10 +1,10 @@
 # Site settings
-title: Deutschland
+title: Reiseland Deutschland
 client:
-  name: Von der Nordsee bis zu den Alpen
+  name: Deutschlands schönste Seiten
   link: ""
-core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019
-se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=australia_DE_2019"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=deutschland_DE_2019
+se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=deutschland_DE_2019"
 description: >
   Das Reiseland Deutschland hat viel mehr zu bieten als Fußball, Currywurst oder das Oktoberfest. Entdecken Sie unser Land ganz neu, abseits der Klischees und in all seiner Vielfalt.
 

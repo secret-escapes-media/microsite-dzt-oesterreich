@@ -84,12 +84,19 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
-  font-size: $s8;
+  font-size: $s7;
   line-height: 1.1;
+
+  &--sm     { font-size: $s6; }
+  &--lg     { font-size: $s8;  }
+  &--xl     { font-size: $s9; letter-spacing: 4px;}
+
+  @include bp($sm){ font-size: $s8;
 
   &--sm     { font-size: $s7; }
   &--lg     { font-size: $s9;  }
   &--xl     { font-size: $s10; letter-spacing: 5px;}
+  }
 
   @include bp($md){ font-size: $s10;
 

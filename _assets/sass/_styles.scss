@@ -10,16 +10,16 @@
    &--bottom{
     position:absolute;
      bottom:0px;
-     //background-color: rgba($black, .2);
+     background-color: rgba($black, .2);
      padding: 5px 10px;
-     right:0px;
+     left: 0px;
    }
 
   &--left-bottom{
     position:absolute;
     bottom:0px;
     line-height: 1.1em;
-    //background-color: rgba($black, .2);
+    background-color: rgba($black, .2);
     padding: 8px 8px;
     left:0px;
   }
@@ -27,7 +27,7 @@
   &--top{
      position:absolute;
      top: 0px;
-     //background-color: rgba($black, .2);
+     background-color: rgba($black, .2);
      padding: 5px 10px;
      right:0px;
    }
@@ -65,8 +65,8 @@
 }
 
 @include bp($xl) {
-padding-left: $s4;
-padding-right: $s4;
+  padding-left: $s4;
+  padding-right: $s4;
 }
 
 @include bp($xxl) {
@@ -77,40 +77,13 @@ padding-right: $s4;
 @include bp($xxxl) {
   padding-left: $s7;
   padding-right: $s7;
-}
+  }
 }
 
 
 /* ==========================================================================
-   mobile
+   hidden content
  ========================================================================== */
-
-
-.bv-mob-show{
-    display: block;
-
-  @include bp($xl) {
-      display: none;
-
-  }
-}
-
-.bv-mob-hide{
-    display: none;
-
-    &--lg { display: none;}
-
-    &--md { display: none;}
-
-  @include bp($md) {  &--md {display: block;}  }
-
-  @include bp($lg) {  &--lg {display: block;}  }
-
-  @include bp($xl) {  display: block;  }
-
-}
-
-
 
 .bv-show{
   display: block;
@@ -132,10 +105,7 @@ padding-right: $s4;
 
 .bv-remove-bg{
   background-image: none!important;
-/*
-  &--blue{
-    background-image: none!important;
-    background-color: $bv-blue;}*/
+
 }
 
 .bv-parallax{
@@ -147,78 +117,76 @@ padding-right: $s4;
 
 
 
-      /* ==========================================================================
-       hero-youtube
-      ========================================================================== */
+/* ==========================================================================
+ hero-youtube
+========================================================================== */
 
-      /* The Modal (background) */
-      .bv-modal {
-        display: none;
-        position: fixed;
-        z-index: 100;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        background-color: rgba($black,0.9);
-      }
+/* The Modal (background) */
+.bv-modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba($black,0.9);
+}
 
-      /* Modal Content */
-      .bv-modal-content-details {
-        position: absolute;
-        height: 100%;
-        max-height: 620px;
-        width: 100%;
-        margin: auto;
-        padding:  55px;
-        top: 0; left: 0; bottom: 0; right: 0;
-        overflow: hidden;
+/* Modal Content */
+.bv-modal-content-details {
+  position: absolute;
+  height: 100%;
+  max-height: 620px;
+  width: 100%;
+  margin: auto;
+  padding:  55px;
+  top: 0; left: 0; bottom: 0; right: 0;
+  overflow: hidden;
 
-      }
-
-
-      .bv-mySlides {
-        margin: auto;
-        max-width:1000px;
-        width:100%;
-        background-color: #fff;
-
-      }
+}
 
 
-      .bv-iframe-ratio {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-top: 56.25%; // 16:9 ratio
-        background-color:#000;
+.bv-mySlides {
+  margin: auto;
+  max-width:1000px;
+  width:100%;
+  background-color: #fff;
+}
 
-      }
 
-      .bv-iframe-ratio iframe {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0; top: 0;
-      }
+.bv-iframe-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%; // 16:9 ratio
+  background-color:#000;
+}
 
-      /* The Close Button */
-      .bv-close {
-        position: absolute;
-        background-size:16px;
-        top: 0px;
-        right: 0px;
-        background-image: url('../img/icons/close-black.svg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 55px;
-        height: 55px;
-        background-color: $white;
-        z-index:999;
-        cursor: pointer;
+.bv-iframe-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
 
-      }
+/* The Close Button */
+.bv-close {
+  position: absolute;
+  background-size:16px;
+  top: 0px;
+  right: 0px;
+  background-image: url('../img/icons/close-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 55px;
+  height: 55px;
+  background-color: $white;
+  z-index:999;
+  cursor: pointer;
+
+}
 
 
       @media only screen and (max-width: 650px) {

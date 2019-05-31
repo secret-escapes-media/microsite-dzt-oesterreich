@@ -27,7 +27,7 @@ layout: default
 {% for section in  page.sections.items %}
     <div id="{{section.id}}" class="harvey {% cycle 'harvey--swap bg--lightgrey', '' %}">
       <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
-        <div class="text text--sm text--white text--normal bv-copyright--bottom" style=" {% cycle 'left:0px;', 'right:0px;' %}">{{section.credit}}</div>
+        <div class="text text--sm text--white text--normal bv-copyright--bottom" >{{section.credit}}</div>
       </div>
       <div class="harvey__text boxpad--lg text text--xxl text--justify">
         <h2 class="title title--xl text--bold text--left ">{{section.title}}</h2>
@@ -35,7 +35,7 @@ layout: default
         <p>{{section.description}}</p>
 
         <div class="space--xl"></div>
-          <a href="{{section.url}}" class=" btn btn--bv-outline" > Mehr erfahren</a>
+          <a href="{{section.url}}" class=" btn btn--bv-outline" target="_blank"> Mehr erfahren</a>
       </div>
     </div>
  {% endfor %}
