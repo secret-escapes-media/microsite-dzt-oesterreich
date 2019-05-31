@@ -17,8 +17,8 @@ layout: default
 <div class=" vpad--xl  bg--lightgrey" >
   <div class="container">
       <h2 class="title title--xl text--bold">{{page.pois.title}}</h2>
-      <div class="space--xxl"></div>
-
+      <div class="space--md"></div>
+      <div class="space--xl bv-mob-hide"></div>
       <div class="row row--6-6 row--gutters">
         <div class="col">
           <div class="" >
@@ -59,11 +59,12 @@ layout: default
 
 <div class="container vpad--xl">
     <h2 class="title title--xl text--bold">Unsere Partner</h2>
-    <div class="space--xxl"></div>
+    <div class="space--lg"></div>
+    <div class="space--md bv-mob-hide"></div>
   <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
     {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
       {% for partner in page.partner.items %}
-    <div class="col text text--md text--justify">
+    <div class="col text text--lg text--justify">
       <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{partner.id}}/hero.jpg);">      </div>
       <div class="space--md"></div>
       <h5 class="title title--xs text--left text--upper text--bold">{{partner.title}}</h5>

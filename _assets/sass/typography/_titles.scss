@@ -11,7 +11,7 @@
   &--lg     { font-size: $s5; }
   &--md     { font-size: $s4; }
   &--sm     { font-size: $s3; }
-  &--xs     { font-size: $s2; }
+  &--xs     { font-size: $s3; }
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
@@ -105,11 +105,11 @@
   &--xl     { font-size: $s12; letter-spacing: 5px; }
   }
 
-  @include bp($xl){ font-size: $s11;
+  @include bp($xl){ font-size: $s12;
 
-  &--sm     { font-size: $s10; }
-  &--lg     { font-size: $s12; letter-spacing: 4px; }
-  &--xl     { font-size: $s13; letter-spacing: 5px; }
+  &--sm     { font-size: $s11; }
+  &--lg     { font-size: $s13; letter-spacing: 4px; }
+  &--xl     { font-size: $s14; letter-spacing: 5px; }
   }
 
 }

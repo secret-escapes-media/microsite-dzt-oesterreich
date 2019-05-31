@@ -6,6 +6,7 @@
   font-weight: 700;
   font-size: $s-1;
   text-align: center;
+  white-space: nowrap;
   //text-transform: uppercase;
   //letter-spacing: .25em;
   line-height: 1.33;
@@ -19,6 +20,7 @@
   }
   &--outline {
     color: inherit;
+    white-space: nowrap;
     &:before {
       // button border within original padding
       content: '';
@@ -34,7 +36,7 @@
     }
   }
   &--bv-outline {
-
+    white-space: nowrap;
     font-size: $s1;
     color: $grey-dark;
     line-height: 1;
@@ -48,7 +50,7 @@
     }
   }
   &--bv-blue {
-
+    white-space: nowrap;
     font-size: $s1;
     line-height: 1;
     color: $white;
