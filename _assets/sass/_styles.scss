@@ -26,15 +26,32 @@
   }
 
   &--top{
-     position:absolute;
-     top: 0px;
-     background-color: rgba($black, .2);
-     padding: 5px 10px;
-     right:0px;
+
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 10px;
+    background-color: rgba($black, .2);
+    transform: rotate(90deg);
+    transform-origin: top left;
+    padding:  3px 10px 8px;
+
+    @include bp($md) {
+    position: absolute;
+    top: 70px;
+    left: 27px;
+    font-size: 12px;
+    background-color: rgba($black, .2);
+    transform: rotate(90deg);
+    transform-origin: top left;
+    padding: 3px 10px 5px;
+    }
+
    }
 
-
  }
+
+.bv-rotation{}
 
 .bv-caption{
   position:absolute;
@@ -249,4 +266,42 @@
         left: $s0;
         width: 146px;
       }
+    }
+
+
+
+/* ==========================================================================
+  center tab
+========================================================================== */
+
+
+
+    .bv-container {
+      //width: 600px;
+       width: 100%;
+      /* overflow-x: scroll; */
+    }
+
+    #bv-viewContainer {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+      padding: 25px 0;
+      height: 90px;
+      /* display: table; */
+    }
+
+    .bv-page {
+      text-align: center;
+      width: 120px;
+      height: 100%;
+      /* display: table-cell; */
+      border: 1px solid red;
+      display: inline-block;
+    }
+
+    .bv-active {
+      background-color: yellow;
+      color: $black;
     }

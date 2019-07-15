@@ -14,7 +14,9 @@
     <div class="content-spacing section-spacing">
       {{ content }}
     </div>
-
+    {% if page.deals == true  %}
+       {% include offer/regions-offers.html %}
+    {% endif %}
 
     {% include page/footer.html %}
 

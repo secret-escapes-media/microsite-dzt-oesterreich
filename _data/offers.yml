@@ -1,43 +1,131 @@
-- title: Headline goes here
-  id: "1"
-  location: Location goes here
-  description: Description goes here
-  price: 50
-  price-description: basierend auf 2 Personen für 9 Nächte
-  saved: 30
+- title: Luxusauszeit im Frankfurter Kempinski
+  id: "frankfurt"
+  show: true
+  location: Kempinski Hotel Frankfurt Gravenbruch, Neu-Isenburg, Hessen, Deutschland
+  description: Frankfurts Sightseeing-Hotspots erkunden – inkl. Frühstücksbuffet, Begrüßungsgetränk & Extras
+  price: 74
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 40
   flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
-  link: http://bit.ly/2w7AvTR
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/37384/4e5778eb_e8e0_47c8_afbb_b8a14ff13922.jpg?auto=format,compress
+  link: http://bit.ly/30kSnYw
 
-- title: Headline goes here
-  id: "2"
-  location: Location goes here
-  description: Description goes here
-  price: 50
-  price-description: basierend auf 2 Personen für 9 Nächte
-  saved: 30
+- title: Hilton-Komfort im Frankfurter Bahnhofsviertel
+  id: "frankfurt"
+  show: true
+  location: Hilton Garden Inn Frankfurt City Centre, Frankfurt am Main, Hessen, Deutschland
+  description: Zimmer mit Queensize-Bett – inkl. Frühstücksbuffet, spätem Check-out & Begrüßungsgetränk
+  price: 44
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 48
   flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
-  link: http://bit.ly/2w7AvTR
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/92411/2a773e56_f913_46d3_a62c_ea85900b6b5a.jpg?auto=format,compress
+  link: http://bit.ly/31XZJmx
 
-- title: Headline goes here
-  id: "3"
-  location: Location goes here
-  description: Description goes here
-  price: 50
-  price-description: basierend auf 2 Personen für 9 Nächte
-  saved: 30
+- title: Frankfurts schönste Seite in Main-Nähe
+  id: "frankfurt"
+  show: true
+  location: Fleming's Hotel Frankfurt Main-Riverside, Hessen, Deutschland
+  description: Inkl. Frühstück, 1x Fleming's Secco-Gutschein, Wasser auf dem Zimmer & Extras
+  price: 54
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 38
   flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
-  link: http://bit.ly/2w7AvTR
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/31802/0410d8c4_13ba_4913_b23f_a4e72f9c91db.jpg?auto=format,compress
+  link: http://bit.ly/2L80GmZ
 
-- title: Headline goes here
-  id: "4"
-  location: Location goes here
-  description: Description goes here
-  price: 50
-  price-description: basierend auf 2 Personen für 9 Nächte
-  saved: 30
+- title: Charmanter City-Trip nach Leipzig
+  id: "leipzig"
+  show: true
+  location: H4 Hotel Leipzig, Sachsen, Deutschland
+  description: Komfortable Doppelzimmer – inkl. Frühstück, Begrüßungsgetränk & optionaler Thermeneintritt
+  price: 34
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 56
   flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
-  link: http://bit.ly/2w7AvTR
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/97049/10bd8414_b2e6_44f3_9c31_7bfc6fc41e5f.jpg?auto=format,compress
+  link: http://bit.ly/2XJnGP3
+
+- title: Urbanes Design & Suiten-Flair in Leipzig
+  id: "leipzig"
+  show: true
+  location: Felix im Lebendigen Haus Leipzig, Sachsen, Deutschland
+  description: Universitätsstadt Leipzig – inkl. Frühstück, Begrüßungsgetränk, spätem Check-out & Extras
+  price: 40
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 50
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/85518/e420726a_0381_49cc_a8d3_3b9e3b730900.jpg?auto=format,compress
+  link: http://bit.ly/32grzuf
+
+- title: Jugendstilambiente in schönem Park in Dresden
+  id: "meissen"
+  show: true
+  location: Hotel Villa Weltemühle, Dresden, Sachsen, Deutschland
+  description: Romantik & Eleganz im Landschaftsschutzgebiet Zschonergrund – inkl. Frühstück & Spa-Zugang
+  price: 39
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 34
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/36896/a5ccb63b_77ba_4f6c_ade0_8116bf157f9f.jpg?auto=format,compress
+  link: http://bit.ly/2Jy8V8C
+
+- title: Wohlfühltage bei Dresden
+  id: "meissen"
+  show: true
+  location: Wyndham Garden Dresden, Sachsen, Deutschland
+  description: Perfekte Anbindung in Sachsens Hauptstadt – inkl. Frühstück, Begrüßungsgetränk & Spa-Zugang
+  price: 32
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 50
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/86008/dde0daf4_26b1_4c3a_b17f_251bcfc34acf.jpg?auto=format,compress
+  link: http://bit.ly/2Lf09Qd
+
+- title: Erlebnisreiche Tage im schönen Elbflorenz
+  id: "meissen"
+  show: true
+  location: Courtyard by Marriott Dresden, Sachsen, Deutschland
+  description: Im Dresdner Szeneviertel verwöhnen lassen  inkl. Frühstück, spätem Check-out & Wellness
+  price: 48
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 52
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/43087/d8b1304a_8b39_49c9_ae2d_22cd94a3ee86.jpg?auto=format,compress
+  link: http://bit.ly/31ZROVI
+
+- title: Historisches Hotel in Dresdens Traumlage
+  id: "meissen"
+  show: true
+  location: Maritim Hotel and International Congress Center Dresden, Sachsen, Deutschland
+  description: Inkl. Frühstück, Begrüßungscocktail & 2 alkoholfreier Getränke
+  price: 54
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 44
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/43308/d7e034c2_4867_46e6_9c19_d1c0ae57663d.jpg?auto=format,compress
+  link: http://bit.ly/2YvapXK
+
+- title: Schwäbische Gemütlichkeit in Stuttgart
+  id: "metzingen"
+  show: true
+  location: Jaz Stuttgart, Baden-Württemberg, Deutschland
+  description: Ausblick über Stuttgart – inkl. Frühstück, Zugang zum Wellness & Fitnessbereich sowie Extra
+  price: 54
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 51
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/68685/070ce7be_119a_49b2_811d_b00d06dd0500.jpg?auto=format,compress
+  link: http://bit.ly/2S5xdeg
+
+- title: Bayerische Entspannung in fürstlichem Ambiente
+  id: "bayern"
+  show: true
+  location: Dorint Resort & Spa Bad Brückenau, Deutschland
+  description: Inkl. Frühstücksbuffet, 1x Dinner, täglichem Spa-Zugang & Extras
+  price: 50
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 34
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/57172/48edae4b_0168_4da2_b961_091deaadd1a6.jpg?auto=format,compress
+  link: http://bit.ly/2Xk69xn

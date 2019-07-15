@@ -62,13 +62,13 @@ layout: default
     <div class="space--lg"></div>
     <div class="space--md bv-mob-hide"></div>
   <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
-    {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
+    {% assign content-pages = site.html_pages  %}
       {% for partner in page.partner.items %}
     <div class="col text text--lg text--justify">
       <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{partner.id}}/hero.jpg);">      </div>
       <div class="space--md"></div>
       <h5 class="title title--xs text--left text--upper text--bold">{{partner.title}}</h5>
-      <p>{{partner.description}}</p>
+      <p>{{partner.description}}{{partner.nav-order}}</p>
       <div class="space--md"></div>
         <a href="{{site.baseurl}}/{{partner.id}}" class=" btn btn--bv-outline" > Mehr erfahren</a>
       <div class="space--md"></div>

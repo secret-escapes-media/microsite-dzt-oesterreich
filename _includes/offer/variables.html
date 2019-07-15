@@ -3,6 +3,9 @@
 <!-- all offers -->
 {% assign offers = site.data.offers %}
 
+<!-- offers by id -->
+{% assign region-offer = offers | where: 'id', page.id  %}
+
 <!-- offers by saving -->
 {% assign offers-by-saving = offers | sort: 'saved' | reverse %}
 

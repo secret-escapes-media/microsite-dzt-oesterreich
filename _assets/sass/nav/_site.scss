@@ -1,7 +1,7 @@
 // styles for the microsite nav
 
 $site-nav-height:    60px;
-$site-nav-height-sm: 50px;
+$site-nav-height-sm: 55px;
 $nav-width-bp:       900px;
 $nav-color:          $black;
 
@@ -30,7 +30,30 @@ $nav-color:          $black;
   }
 
 
-  &:before {
+  &__arrow-before:before {
+    // arrow icon prompt for horizontal scroll
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: $z-nav-upper;
+    width: $site-nav-height-sm;
+    background-image: url("../img/icons/nav-arrow.svg");
+    transform: rotate(180deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $site-nav-height-sm auto;
+    @include site-nav-height;
+    @include bp($md){
+      width: $site-nav-height;
+      background-size: $site-nav-height auto;
+    }
+    // remove arrow icon when no overflow
+    @include bp($nav-width-bp){ display: none; }
+  }
+
+  &__arrow-after:after {
     // arrow icon prompt for horizontal scroll
     content: '';
     position: absolute;
@@ -54,6 +77,7 @@ $nav-color:          $black;
 
   &__scroll-wrap {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
     @include bp($nav-width-bp){ overflow: visible; }
   }
@@ -65,10 +89,11 @@ $nav-color:          $black;
     margin-left: auto;
     margin-right: auto;
     @include site-nav-height;
+
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
-      min-width: $site-nav-height-sm/3;
+      //min-width: $site-nav-height-sm/3;
       //@include bp($md){ min-width: $site-nav-height; }
       @include bp($nav-width-bp){ display: none; }
     }
@@ -76,8 +101,10 @@ $nav-color:          $black;
   &__item {
     display: flex;
     flex: 1 0 auto;
+     width: 120px;
     //border-right: 1px solid rgba($white,.15);
     &:last-child { border-right: 0; }
+    @include bp($nav-width-bp){ width: auto; }
   }
   &__link {
     display: flex;

@@ -1,0 +1,22 @@
+{% include offer/variables.html %}
+<div class=" vpad--xxl bg--light text--center" >
+
+  <div class="container ">
+    <h2 class="title title--xl text--bold ">Unsere Angebote</h2>
+
+    <div class="space--sm"></div>
+      <div class="text text--xxl text--center text--black ">für {{page.title}} </div>
+    <div class="space--xl"></div>
+    <div class="row row--xl-6-6 row--gutters-md">
+      {% for offer in region-offer %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+<!--
+  <div class="space--xxl"></div>
+  <a href="#top" class="btn btn--f-blue ">Nach oben</a> -->
+
+</div>
