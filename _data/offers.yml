@@ -1,26 +1,26 @@
-- title: Luxusauszeit im Frankfurter Kempinski
+- title: Neu renoviertes Juwel in Frankfurt
   id: "frankfurt"
   show: true
-  location: Kempinski Hotel Frankfurt Gravenbruch, Neu-Isenburg, Hessen, Deutschland
-  description: Frankfurts Sightseeing-Hotspots erkunden – inkl. Frühstücksbuffet, Begrüßungsgetränk & Extras
-  price: 74
-  price-description: pro Person - basierend auf 2 Personen
+  location: Radisson Blu Hotel Frankfurt am Main, Hessen, Deutschland
+  description: Kunst, Kulinarik und Star-Design in der Finanzmetropole – inkl. Frühstück & Parkplatz
+  price: 105
+  price-description: pro Zimmer pro Nacht
   saved: 40
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/37384/4e5778eb_e8e0_47c8_afbb_b8a14ff13922.jpg?auto=format,compress
-  link: http://bit.ly/30kSnYw
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/11984/808d572c_cb2e_4c6a_8f3b_1537d6ae7147.jpg?auto=format,compress
+  link: http://bit.ly/2LUmWjW
 
-- title: Hilton-Komfort im Frankfurter Bahnhofsviertel
+- title: Moderne Apartments in Frankfurt am Main
   id: "frankfurt"
   show: true
-  location: Hilton Garden Inn Frankfurt City Centre, Frankfurt am Main, Hessen, Deutschland
-  description: Zimmer mit Queensize-Bett – inkl. Frühstücksbuffet, spätem Check-out & Begrüßungsgetränk
-  price: 44
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 48
+  location: BOLD Hotel Frankfurt an der Messe, Hessen, Deutschland
+  description: Zentrales Apartment im skandinavischen Design mit Küchenzeile & Parkplatz
+  price: 55
+  price-description: pro Zimmer pro Nacht
+  saved: 35
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/92411/2a773e56_f913_46d3_a62c_ea85900b6b5a.jpg?auto=format,compress
-  link: http://bit.ly/31XZJmx
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/48012/ed3df95f_15b9_4ff6_848b_9d305af4bb21.jpg?auto=format,compress
+  link: http://bit.ly/2JIh8qR
 
 - title: Frankfurts schönste Seite in Main-Nähe
   id: "frankfurt"
@@ -34,17 +34,17 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/31802/0410d8c4_13ba_4913_b23f_a4e72f9c91db.jpg?auto=format,compress
   link: http://bit.ly/2L80GmZ
 
-- title: Charmanter City-Trip nach Leipzig
+- title: Literarisches Ambiente in Leipzig
   id: "leipzig"
   show: true
-  location: H4 Hotel Leipzig, Sachsen, Deutschland
-  description: Komfortable Doppelzimmer – inkl. Frühstück, Begrüßungsgetränk & optionaler Thermeneintritt
-  price: 34
+  location: Book Hotel Leipzig, Sachsen, Deutschland
+  description: Im Herzen von Leipzig - inkl. Frühstück & Begrüßungsgetränk
+  price: 72
   price-description: pro Person - basierend auf 2 Personen
-  saved: 56
+  saved: 46
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/97049/10bd8414_b2e6_44f3_9c31_7bfc6fc41e5f.jpg?auto=format,compress
-  link: http://bit.ly/2XJnGP3
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/97893/257c2154_0cd9_4977_851f_9fc4cbf92f53.jpg?auto=format,compress
+  link: http://bit.ly/2XLYcRO
 
 - title: Urbanes Design & Suiten-Flair in Leipzig
   id: "leipzig"
@@ -58,17 +58,17 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/85518/e420726a_0381_49cc_a8d3_3b9e3b730900.jpg?auto=format,compress
   link: http://bit.ly/32grzuf
 
-- title: Jugendstilambiente in schönem Park in Dresden
+- title: "Bestseller: Kempinski-Luxus in Dresden"
   id: "meissen"
   show: true
-  location: Hotel Villa Weltemühle, Dresden, Sachsen, Deutschland
-  description: Romantik & Eleganz im Landschaftsschutzgebiet Zschonergrund – inkl. Frühstück & Spa-Zugang
-  price: 39
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 34
+  location: Taschenbergpalais Kempinski Dresden, Sachsen, Deutschland
+  description: Inkl. Frühstück, täglichem Spa-Zugang, Spa-Gutschein & Extras
+  price: 159
+  price-description: pro Zimmer pro Nacht
+  saved: 40
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/36896/a5ccb63b_77ba_4f6c_ade0_8116bf157f9f.jpg?auto=format,compress
-  link: http://bit.ly/2Jy8V8C
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/14028/1edba295_1c00_47d6_9086_b69d78a7d16e.jpg?auto=format,compress
+  link: http://bit.ly/2LUnlmd
 
 - title: Wohlfühltage bei Dresden
   id: "meissen"
@@ -82,29 +82,29 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/86008/dde0daf4_26b1_4c3a_b17f_251bcfc34acf.jpg?auto=format,compress
   link: http://bit.ly/2Lf09Qd
 
-- title: Erlebnisreiche Tage im schönen Elbflorenz
+- title: "Dresdner Neustadt: Cityhotel mit Spa"
   id: "meissen"
   show: true
-  location: Courtyard by Marriott Dresden, Sachsen, Deutschland
-  description: Im Dresdner Szeneviertel verwöhnen lassen  inkl. Frühstück, spätem Check-out & Wellness
-  price: 48
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 52
+  location: Best Western Macrander Hotel Dresden, Sachsen, Deutschland
+  description: Ruhiges Hotel im Szeneviertel Neustadt – inkl. Frühstück, spätem Check-out & Extras
+  price: 75
+  price-description: pro Zimmer pro Nacht
+  saved: 46
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/43087/d8b1304a_8b39_49c9_ae2d_22cd94a3ee86.jpg?auto=format,compress
-  link: http://bit.ly/31ZROVI
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/64526/c8586475_9649_445c_9f08_37b1f1c317d9.jpg?auto=format,compress
+  link: http://bit.ly/2Gf7wmq
 
-- title: Historisches Hotel in Dresdens Traumlage
+- title: "Dresden: Moderne Eleganz an der Elbe"
   id: "meissen"
   show: true
-  location: Maritim Hotel and International Congress Center Dresden, Sachsen, Deutschland
-  description: Inkl. Frühstück, Begrüßungscocktail & 2 alkoholfreier Getränke
-  price: 54
-  price-description: pro Person - basierend auf 2 Personen
+  location: Amedia Hotel Dresden Elbpromenade, Sachsen, Deutschland
+  description: Modernes Cityhotel in idealer Lage – inkl. Frühstück, Obstkorb, spätem Check-out & Extras
+  price: 80
+  price-description: pro Zimmer pro Nacht
   saved: 44
   flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/43308/d7e034c2_4867_46e6_9c19_d1c0ae57663d.jpg?auto=format,compress
-  link: http://bit.ly/2YvapXK
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/66153/78408dac_e887_4ef7_b79b_0ba6e270be75.jpg?auto=format,compress
+  link: http://bit.ly/2Loa3Pr
 
 - title: Schwäbische Gemütlichkeit in Stuttgart
   id: "metzingen"
@@ -129,3 +129,15 @@
   flight-tag: #
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/57172/48edae4b_0168_4da2_b961_091deaadd1a6.jpg?auto=format,compress
   link: http://bit.ly/2Xk69xn
+
+- title: Kulinarik & Genuss mit fränkischem Charme
+  id: "nuernberg"
+  show: true
+  location: Romantik Hotel Gasthaus Rottner, Nürnberg, Bayern, Deutschland
+  description: Romantische Auszeit – inkl. Frühstück, Minibar-Erstbefüllung & spätem Check-out
+  price: 99
+  price-description: pro Zimmer pro Nacht
+  saved: 39
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/97870/b3a590ce_7e61_49fe_bf43_2fdc03d99ad2.jpg?auto=format,compress
+  link: http://bit.ly/30ypoR3
